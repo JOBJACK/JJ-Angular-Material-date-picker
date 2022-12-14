@@ -8,4 +8,5 @@ import { IconService } from './icon.service';
 })
 export class AppComponent {
   constructor(private iconService: IconService) {}
+  selected: Date | null;
 }
